@@ -13,6 +13,10 @@
 		8EED85581A30CF2600DD7DDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EED85571A30CF2600DD7DDB /* Images.xcassets */; };
 		8EED855B1A30CF2600DD7DDB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EED85591A30CF2600DD7DDB /* LaunchScreen.xib */; };
 		8EED85671A30CF2600DD7DDB /* SampleAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EED85661A30CF2600DD7DDB /* SampleAlertTests.swift */; };
+		8EED85751A30D3B900DD7DDB /* backalert1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EED85711A30D3B900DD7DDB /* backalert1.png */; };
+		8EED85761A30D3B900DD7DDB /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EED85721A30D3B900DD7DDB /* like.png */; };
+		8EED85771A30D3B900DD7DDB /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EED85731A30D3B900DD7DDB /* share.png */; };
+		8EED857B1A30D56F00DD7DDB /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EED857A1A30D56F00DD7DDB /* avatar.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		8EED85601A30CF2600DD7DDB /* SampleAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EED85651A30CF2600DD7DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EED85661A30CF2600DD7DDB /* SampleAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAlertTests.swift; sourceTree = "<group>"; };
+		8EED85711A30D3B900DD7DDB /* backalert1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backalert1.png; sourceTree = "<group>"; };
+		8EED85721A30D3B900DD7DDB /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		8EED85731A30D3B900DD7DDB /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		8EED857A1A30D56F00DD7DDB /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +98,10 @@
 		8EED854E1A30CF2600DD7DDB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8EED85711A30D3B900DD7DDB /* backalert1.png */,
+				8EED857A1A30D56F00DD7DDB /* avatar.jpg */,
+				8EED85721A30D3B900DD7DDB /* like.png */,
+				8EED85731A30D3B900DD7DDB /* share.png */,
 				8EED854F1A30CF2600DD7DDB /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +205,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EED85561A30CF2600DD7DDB /* Main.storyboard in Resources */,
+				8EED85761A30D3B900DD7DDB /* like.png in Resources */,
+				8EED857B1A30D56F00DD7DDB /* avatar.jpg in Resources */,
+				8EED85771A30D3B900DD7DDB /* share.png in Resources */,
+				8EED85751A30D3B900DD7DDB /* backalert1.png in Resources */,
 				8EED855B1A30CF2600DD7DDB /* LaunchScreen.xib in Resources */,
 				8EED85581A30CF2600DD7DDB /* Images.xcassets in Resources */,
 			);
@@ -407,6 +423,7 @@
 				8EED856C1A30CF2600DD7DDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EED856D1A30CF2600DD7DDB /* Build configuration list for PBXNativeTarget "SampleAlertTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +432,7 @@
 				8EED856F1A30CF2600DD7DDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
